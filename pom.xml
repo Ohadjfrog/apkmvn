@@ -43,12 +43,17 @@
   <sourceDirectory>src</sourceDirectory>
   <pluginManagement>
    <plugins>
-    <plugin>
-     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
-     <artifactId>android-maven-plugin</artifactId>
-     <version>3.1.1</version>
-     <extensions>true</extensions>
-    </plugin>
+          <plugin>
+        <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>3.8.2</version>
+        <extensions>true</extensions>
+        <configuration>
+          <sdk>
+            <platform>17</platform>
+          </sdk>
+        </configuration>
+      </plugin>
    </plugins>
   </pluginManagement>
   <plugins>
