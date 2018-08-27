@@ -31,12 +31,12 @@
     </plugin>
    </plugins>
   </pluginManagement>
-  <plugin>
+  <plugins>
+   <plugin>
    <groupId>com.google.appengine</groupId>
    <artifactId>appengine-maven-plugin</artifactId>
    <version>1.9.64</version>
-</plugin>
-  <plugins>
+   </plugin>
    <plugin>
     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
     <artifactId>android-maven-plugin</artifactId>
