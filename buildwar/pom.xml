@@ -50,7 +50,8 @@ Creates a war file. Also includes additional static web resources, such as image
 <plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-war-plugin</artifactId>
+<artifactId>maven-assembly-plugin</artifactId>
+<version>2.2-beta-3</version>
 <configuration>
 <failOnMissingWebXml>false</failOnMissingWebXml>   
 <filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
