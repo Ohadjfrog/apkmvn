@@ -39,6 +39,7 @@ THE SOFTWARE.
 Creates a war file. Also includes additional static web resources, such as images, CSS, JavaScript, and some HTML files.
 </description>
 <properties>
+<failOnMissingWebXml>false</failOnMissingWebXml>  
 <HUDSON_HOME>${basedir}/work</HUDSON_HOME>
 <contextPath>/</contextPath>
 <!--  context path during test  -->
