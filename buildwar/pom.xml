@@ -54,8 +54,7 @@ Creates a war file. Also includes additional static web resources, such as image
 <version>2.2-beta-3</version>
 <configuration>
 <failOnMissingWebXml>false</failOnMissingWebXml>   
-<filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
-<webXml>WebContent\WEB-INF\web.xml</webXml> 
+<webXml>src\main\webapp\WEB-INF\web.xml</webXml> 
 <webResources>
 <resource>
 <directory>${project.build.directory}/generated-resources</directory>
