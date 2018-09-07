@@ -293,6 +293,12 @@ Creates a war file. Also includes additional static web resources, such as image
 <version>2.1.2</version>
 <scope>provided</scope>
 </dependency>
+ <dependency>
+<groupId>org.jvnet.hudson.main</groupId>
+<artifactId>rest-plugin</artifactId>
+<version>2.1.1</version>
+<scope>provided</scope>
+</dependency>
 <dependency>
 <groupId>org.jvnet.hudson.main</groupId>
 <artifactId>maven3-plugin</artifactId>
