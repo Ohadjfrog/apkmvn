@@ -1,62 +1,41 @@
-01
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-02
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-03
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-04
     <groupId>com.javacodegeeks.examples</groupId>
-05
     <artifactId>maven-war-plugin-example</artifactId>
-06
     <version>1.0.0-SNAPSHOT</version>
-07
     <name>Maven war ::  example</name>
-08
     <url>http://maven.apache.org</url>
-09
     <packaging>war</packaging>
-10
- 
-11
     <properties>
-12
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-13
     </properties>
-14
- 
-15
     <build>
-16
         <plugins>
-17
             <plugin>
-18
-                <artifactId>maven-war-plugin</artifactId>
-19
+                <artifactId>maven-war-plugin</artifactId>9
                 <version>2.6</version>
-20
+
                 <configuration>
-21
+
                     <webResources>
-22
+
                         <resource>
-23
+
                             <!-- Relative path to the pom.xml directory -->
-24
+
                             <directory>more_resources</directory>
-25
+
                         </resource>
-26
+
                     </webResources>
-27
+
                 </configuration>
-28
+
             </plugin>
-29
+
         </plugins>
-30
+
     </build>
-31
+
 </project>
